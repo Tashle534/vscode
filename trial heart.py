@@ -1,0 +1,11 @@
+from turtle import * 
+color ("pink")
+begin_fill()
+pensize(7)
+left(50)
+forward(120)
+circle(100,200)
+right(90)
+circle(100,200)
+forward(120)
+end_fill()
