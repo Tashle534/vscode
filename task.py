@@ -1,8 +1,10 @@
 #task about driving
-username = input("Please enter your name")
-age = input ("Enter your age")
+def ages():
+    username = input("Please enter your name")
+    age = int(input("Enter your age").strip())
+    age_valid = True
 
-if age < 15 and age >= 18 :
-    userinput = input(" do you want tpo apply for a provisional license or a licence")
-    if userinput =
+    if  age <= 18 :
+        return True
+    return False
 
