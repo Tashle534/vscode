@@ -1,0 +1,7 @@
+#ignore all bin directories bin/
+#other rules...
+*.log
+*.tmp
+git rm -r --cached bin/
+git add .gitignore
+git commit -m "Ignore all bin directories"
