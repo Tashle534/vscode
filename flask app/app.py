@@ -26,4 +26,19 @@ def booking_exhibition():
     
     
     return render_template('booking-exhibition.html')
+
+@app.route('/boooking-guided-tour')
+def booking_guided_tour():
+    session['booking'] = 'guided tour'
+    session['first_name'] = request.form.get('firstname')
+    session['last_name'] = request.form.get('lastname')
+    session['email'] = request.form.get('email')    
+    session['date'] = request.form.get('date')
+    session['time'] = request.form.get('time')
+    
+    
+    return render_template('booking-guided-tour.html')
+
+if __name__ == '__main__':
+    
     
