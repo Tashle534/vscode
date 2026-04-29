@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset ='UTF-8' >
+    <head>
+        <link rel="stylesheet" href="/static/signup.css">
+        <script src="/scripts/main.js"></script>
+        <title> Sign up page </title>
+    </head>
+    <body>
+        <nav>
+            <!--- navigation bar using javascript for redirects -->
+            <ul class="navbar">
+                <li onclick="index()">
+                    <!-- <img src="/static/logo.png"  > -->
+                     <p> G.L.H 🪻</p>
+                </li>
+                <li onclick="index()">
+                    <a href="index.html">Home</a>
+                </li>
+                <li onclick="aboutUs()">
+                    <a href="about_us.html">About us</a>
+                </li>
+                <li onclick="ProductsPage()">
+                    <a href="products.html" > Products/Services </a>
+                </li>
+                <li onclick="loginPage()">
+                    <a href="login.html"> Login </a>
+                </li>
+                <li onclick="SignUp()">
+                    <a href="signup.html"> Sign Up</a>
+                </li>
+                <li onclick="orderHistory()">
+                    <a href="order_history.html"> Order History </a>
+                </li>
+                <li onclick="checkout()">
+                    <a href="checkout.html"> Checkout </a>
+                </li>
+                
+            </ul>
+
+        </nav>
+        <header class="hero-container"> 
+            <p class="text-hero-section">WELCOME TO GREENFIELD LOCAL HUB </p>
+        </header>
+
+        <div class="signup-form" >
+            <form action="/sign-up" method="POST">
+                <label for="firstname"> Firstname: </label>
+                <input type="text" placeholder="Firstname" required id="Firstname" name="Firstname" >
+                <br>
+                <br>
+                <label for="Lastname" >Lastname: </label>
+                <input type="text" placeholder="Lastname" id="Lastname"  name="Lastname" required>
+                <br>
+                <br>
+                <label for="Password" >Password: </label>
+                <input type="password" placeholder="Password" id="Password"  name="Password" required>
+                <br>
+                <br>
+                <label for="Username">Username: </label>
+                <input type="text" placeholder="Username" id="Username" name="Username"  required>
+                <br>
+                <br>
+                <label for="Address"> Address: </label>
+                <input type="text" placeholder="Address" id="Address" name="Address" required>
+                <br>
+                <br>
+                <label for="City"> City: </label>
+                <input type="text" placeholder="City" id="City"  name="City" required>
+                <br>
+                <br>
+                <label for="submit"> Submit </label>
+                <input type="submit">
+
+            </form>
+            
+    
+        <footer class="footer">
+            <ul>
+                <li>
+                    Call/Whatsapp us at +44 712 345 6789
+                </li>
+                <li>
+                    <p>Instagram</p>
+                </li>
+                <li>
+                    <p>Email Us</p>
+                </li>
+            </ul>
+        </footer>
+</body>
+</html>
