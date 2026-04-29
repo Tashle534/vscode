@@ -1,0 +1,156 @@
+*, body{
+    font-family : gwenchana;
+    margin : 0;
+    padding: 1px;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #FEFAE0;
+}
+
+
+/*navigation bar styling */
+nav{
+    
+    top :0;
+}
+.navbar{
+    background-color: #606C38;
+    padding : 10px;
+    
+    top :0;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    height: 140px;
+    text-decoration: none;
+    margin: 5px;
+}
+.navbar ul li{
+    text-decoration-style: none;
+    background-color: #283618 ;
+    
+}
+.navbar a {
+    float: left ;
+    display: block;
+    color : #FEFAE0;
+    background-color: #283618 ;
+    text-align : center;
+    margin : 10px;
+    padding : 25px;
+    border-radius: 20px;
+    font-size: 40px;
+
+}
+.navbar p{
+    color:#FEFAE0;
+    font-size: 40px;
+    padding: 20px;
+    text-decoration:underline;
+    margin : 10px;
+}
+
+li a:hover {
+    color : #FEFAE0;
+    background-color: #DDA15E;
+    text-decoration: underline;
+
+}
+
+li a:active {
+    color : #FEFAE0;
+    
+}
+
+
+ /* HERO BANNER SECTION */
+ .hero-container {
+    background-color: #fefae0d5 ;
+    border: 5px solid #334221;
+    margin-left : 360px;
+    margin-top : 200px;
+    height : 400px;
+    width :1800px;
+    border-radius:20px ;
+
+
+ }
+.text-hero-section {
+    font-size: 98px;
+    text-decoration: underline;
+    text-align : center;
+    padding: 60px;
+    padding-bottom: 60px;
+    color: #000000;
+    z-index: 2;
+    opacity: 1.5;
+    width: 1700px;
+    margin-left : 90px;
+   
+    
+}
+
+.section-div{
+    background-color: #FEFAE0;
+    padding : 40px;
+    border-radius: 20px;
+    border: solid 15px #283618;
+    height : 300px;
+    text-align: center;
+    line-height: 2;
+    font-size : 30px;
+    margin: 50px;
+    color:#606C38 ;
+
+}
+
+
+
+/* footer section */
+
+.footer{
+    background-color:#334221;
+    padding : 20px;
+    margin : 5px;
+    height: 180px;
+    border-radius: 15px;
+    grid-row: span(1);
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+}
+.footer li { 
+    text-decoration-style: none;
+    background-color: #606C38;
+    float : left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin : 20px;
+}
+.footer li img{
+    height : 10px;
+    width :10px;
+}
+.footer a {
+    color : #FEFAE0;
+    padding :10px;
+    font-size: 80px;
+    text-align: center;
+
+}
+.footer li:hover{
+    background-color: #DDA15E;
+    color :#FEFAE0;
+    text-decoration: underline;
+
+}
+
+.footer a:active{
+    color: #FEFAE0;
+}
