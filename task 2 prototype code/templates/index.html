@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+     <meta charset ='UTF-8' >
+    <head>
+        <link rel="stylesheet" href="/static/index.css">
+        <script src="/scripts/main.js"></script>
+        <title> Home Page </title>
+    </head>
+    <body>
+        <nav>
+            <!--- navigation bar using javascript for redirects--> 
+            <ul class="navbar">
+                <li onclick="index()" stytle="text-decoration-style: none;" id="home">
+                    <!-- <img src="/static/logo.png"  > -->
+                     <p> G.L.H 🪻</p>
+                     <!-- <script>
+                        const  home_url ={{ url_for("index")|tojson }}
+
+                        const logo_home = getElementByID ("Home")
+                     </script> -->
+                </li>
+                <li onclick="index()" stytle="text-decoration-style: none;" id="index">
+                    <a href="index.html">Home</a>
+                </li>
+                <li onclick="aboutUs()" id="aboutUs">
+                    <a href="about_us.html">About us</a>
+                </li>
+                <li onclick="ProductsPage()" id="products">
+                    <a href="products.html"> Products/Services </a>
+                </li>
+                <li onclick="loginPage()" id="login">
+                    <a href="login.html"> Login </a>
+                </li>
+                <li onclick="SignUp()" id="signup">
+                    <a href="signup.html"> Sign Up</a>
+                </li>
+                <li onclick="orderHistory()" id="orderHistory">
+                    <a href="order_history.html"> Order History </a>
+                </li>
+                <li onclick="checkout()" id="checkout">
+                    <a href="checkout.html"> Checkout </a>
+                </li>
+                
+            </ul>
+
+        </nav>
+        <header class="hero-container"> 
+            <p class="text-hero-section">WELCOME TO GREENFIELD LOCAL HUB </p>
+        </header> 
+        <br>
+        <section class=" container " >
+            <div class="block" style="display: grid; grid-auto-flow :column ">
+                <img src="/static/images/display.png">
+                <p> statement of information about the pictures </p>
+                <img src="/static/images/cover.png">
+                <p> statement of information about the pictures </p>
+
+            </div>
+            <br>
+            <div class="text-div1">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
+                    </p>
+            </div>
+            <br>
+            <div class="block" style="display: grid; grid-auto-flow :column ">
+                <img src="/static/images/display.png">
+                <p> statement of information about the pictures</p>
+                <img src="/static/images/produce.png">
+                <p> statement of information about the pictures </p>
+
+            </div>
+            <br>
+            <div  class="text-div2">
+                <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
+                    </p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <ul>
+                <li>
+                    Call/Whatsapp us at +44 712 345 6789
+                </li>
+                <li>
+                    <p>Instagram</p>
+                </li>
+                <li>
+                    <p>Email Us</p>
+                </li>
+            </ul>
+        </footer>
+
+    </body>
+</html>

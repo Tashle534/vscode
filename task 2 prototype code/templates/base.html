@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset ='UTF-8' >
+    <head>
+        <link rel="stylesheet" href="/stylesheet/index.css">
+        <script src="/scripts/main.js"></script>
+    </head>
+    <body>
+        <nav>
+            <!--- navigation bar using javascript for redirects -->
+            <ul class="navbar">
+                <li onclick="index()">
+                    <!-- <img src="/static/logo.png"  > -->
+                     <p> G.L.H </p>
+                </li>
+                <li onclick="index()">
+                    <a href="index.html">Home</a>
+                </li>
+                <li onclick="aboutUs()">
+                    <a href="about_us.html">About us</a>
+                </li>
+                <li onclick="ProductsPage()">
+                    <a href="products.html"> Products/Services </a>
+                </li>
+                <li onclick="loginPage()">
+                    <a href="login.html"> Login </a>
+                </li>
+                <li onclick="SignUp()">
+                    <a href="signup.html"> Sign Up</a>
+                </li>
+                <li onclick="orderHistory()">
+                    <a href="order_history.html"> Order History </a>
+                </li>
+                <li onclick="checkout()">
+                    <a href="checkout.html"> Checkout </a>
+                </li>
+                
+            </ul>
+
+        </nav>
+        <header class="hero-container"> 
+            <p class="text-hero-section">WELCOME TO GREENFIELD LOCAL HUB </p>
+        </header>
+
+        {% block content %}
+
+        {% endblock %}
+        
+        
+    </body>
+</html>

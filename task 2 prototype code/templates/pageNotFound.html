@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8" lang="en">
+        <link rel="stylesheet" src="/static/error.css">
+        <script src="/scripts/main.js"></script>
+        <title> error page</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul class="navbar">
+                <li onclick="index()" stytle="text-decoration-style: none;" id="home">
+                    <!-- <img src="/static/logo.png"  > -->
+                     <p> G.L.H 🪻 </p>
+                     <!-- <script>
+                        const  home_url ={{ url_for("index")|tojson }}
+
+                        const logo_home = getElementByID ("Home")
+                     </script> -->
+                </li>
+                <li onclick="index()" stytle="text-decoration-style: none;" id="index">
+                    <a href="index.html">Home</a>
+                </li>
+                <li onclick="aboutUs()" id="aboutUs">
+                    <a href="about_us.html">About us</a>
+                </li>
+                <li onclick="ProductsPage()" id="products">
+                    <a href="products.html"> Products/Services </a>
+                </li>
+                <li onclick="loginPage()" id="login">
+                    <a href="login.html"> Login </a>
+                </li>
+                <li onclick="SignUp()" id="signup">
+                    <a href="signup.html"> Sign Up</a>
+                </li>
+                <li onclick="orderHistory()" id="orderHistory">
+                    <a href="order_history.html"> Order History </a>
+                </li>
+                <li onclick="checkout()" id="checkout">
+                    <a href="checkout.html"> Checkout </a>
+                </li>
+                
+            </ul>
+        </nav>
+        <header class="hero-container"> 
+            <p class="text-hero-section">WELCOME TO GREENFIELD LOCAL HUB </p>
+        </header> 
+        <br>
+        <section class="error-messages">
+
+          
+            <p> {% print(e) %}</p>
+
+        </section>
+
+        <footer class="footer">
+            <ul>
+                <li>
+                    Call/Whatsapp us at +44 712 345 6789
+                </li>
+                <li>
+                    <p>Instagram</p>
+                </li>
+                <li>
+                    <p>Email Us</p>
+                </li>
+            </ul>
+        </footer>
+
+        
+
+    </body>
+    </html>
